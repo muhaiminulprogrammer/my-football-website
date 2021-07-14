@@ -308,6 +308,10 @@
       .fab{
         margin-top: 40px;
       }
+      .footerimage img{
+        width: 200px;
+        height: 170px;
+      }
     }
    /*======Media Query for Small Device ends=======*/
    /*======Media Query for Medium Device starts=======*/
