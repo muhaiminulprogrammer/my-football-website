@@ -177,7 +177,7 @@
   }
   .galleryimg{
       width: 100%;
-      height: 400px;
+      height: 500px;
       animation-name: image;
       animation-duration: 10s;
       animation-timing-function: linear;
