@@ -311,7 +311,7 @@
       .footerimage img{
         width: 200px;
         height: 60px;
-        margin: 0 auto;
+        margin: 0 20;
       }
     }
    /*======Media Query for Small Device ends=======*/
