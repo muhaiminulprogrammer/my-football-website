@@ -205,7 +205,7 @@
  /*=======footer starts========*/ 
    footer{
        background-image: linear-gradient(white,grey,black);
-       padding: 20px 0;
+       padding: 20px 10px;
    }
    .footergrid{
      display: flex;
