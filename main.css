@@ -300,7 +300,7 @@
       .footergrid{
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
       }
       .socialmediaicon{
         margin: 0 auto;
