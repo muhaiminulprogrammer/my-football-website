@@ -107,7 +107,7 @@
       width: 330px;
       height: 474px;
       box-shadow: 0 0 40px 0 #808080;
-      align-self: center;
+      justify-self: center;
    }
    /*======top player section ends=========*/
    /*=======video section starts=======*/
