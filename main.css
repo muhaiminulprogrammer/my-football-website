@@ -95,12 +95,12 @@
       color: black;
    }
   .topplayercontainer{
-      margin:100px 30px;
+      margin:100px 0;
    }
   .topplayergridcontainer{
       display: grid;
       grid-template-columns: repeat(3,1fr);
-      grid-gap: 30px;
+      grid-gap: 20px;
    }
   .topplayerarticle{
       width: 330px;
@@ -243,6 +243,9 @@
   /*========Media Queries starts=======*/
   /*========Media Query for Small Device starts======*/
     @media only screen and (max-width:668px){
+      body{
+        box-sizing: border-box;
+      }
       .header{
         width: 100%;
       }
@@ -250,10 +253,34 @@
         justify-content: flex-start;
       }
       .navbar ul{
-        padding-left: 10px;
+        padding: 0;
       }
-      ul li{
-        margin-right: 10px;
+      li a{
+        font-size: 10px;
+      }
+      .loginbutton a{
+        font-size: 10px;
+      }
+      .loginbutton i{
+        font-size: 10px;
+      }
+      .flexlinkbutton i{
+        font-size: 16px;
+      }
+      .flexlinkbutton a,.insideimgcontent a{
+        font-size: 16px;
+      }
+      .insideimgcontent a{
+        padding: 5px;
+      }
+      .loginbutton,.flexlinkbutton{
+        padding: 6px 6px;
+      }
+      .topplayerarticle h5{
+        font-size: 18px;
+      }
+         ul li{
+        margin-right: 3px;
       }
       .loginbutton{
         padding: 4px 2px;
@@ -262,45 +289,87 @@
       .heading{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
       }
       .headingtext{
-        margin-left: 70px;
+        margin-left: 4px;
       }
+      .topplayerarticle p{
+        font-size: 12px;
+      }
+      .headingtext h1{
+        font-size: 34px;
+      }
+      h3{
+        font-size: 26px;
+     }
       .flexlinkbutton{
-        margin-bottom: 50px;
+        margin-bottom: 20px;
       }
       .topplayercontainer{
         width: 100%;
+        margin-top: 50px;
       }
       .topplayergridcontainer{
         grid-template-columns: repeat(1,1fr);
-      }
-      .topplayercontainer h3,.topplayerarticle{
-        margin-left: 15px;
       }
       .videogridcontainer{
         grid-template-columns: repeat(1,1fr);
       }
       .videogridcontainer article{
-        margin-left: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 200px;
       }
-      .videocontainer h3{
-        margin-left: 15px;
+      .topplayerimg{
+        height: 177px;
+        width: 220px;
+        margin: 4px;
+      }
+      .topplayerarticle{
+        height: auto;
+        width: 228px;
+      }
+      .headingbanner img{
+        width: 240px;
+        height: 300px;
+      }
+      .headingbanner{
+        display: flex;
+        justify-content: center;
+      }
+      .videocontainer{
+        margin: 0;
+      }
+      .videocontainer{
+        height: 177px;
+        width: 220px;
+      }
+      .topplayerarticle p,h5{
+         margin: 4px;
       }
       .videocontainer{
         width: 100%;
+      }
+      .gallery{
+        position: relative;
+        top: 800px;
+        margin-top:20px;
       }
       .galleryimg{
         width: 100%;
       }
       footer{
         width: 100%;
+        position: relative;
+        top:750px;
+        padding: 20px 0;
       }
       .footergrid{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin: 0;
       }
       .socialmediaicon{
         margin: 0 auto;
@@ -311,8 +380,15 @@
       .footerimage img{
         width: 200px;
         height: 60px;
-        margin: 0 5px;
       }
+      #footercopy{
+        font-size: 10px;
+      }
+      .fab{
+        font-size: 18px;
+        margin-right: 10px;
+        transition: transform 2s linear;
+     }
     }
    /*======Media Query for Small Device ends=======*/
    /*======Media Query for Medium Device starts=======*/
