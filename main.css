@@ -412,8 +412,8 @@
       ul li{
         margin-right: 25px;
       }
-      .loginbutton,.flexlinkbutton{
-        padding: 10px 10px;
+      .loginbutton{
+        padding: 10px 8px;
       }
       .heading{
         flex-direction: column;
